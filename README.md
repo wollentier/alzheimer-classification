@@ -40,6 +40,8 @@ A CCN Model has been built using the pre-trained VGG16 model as a backbone for t
 
 The main notebook contains the final implementation of our selected model architecture.
 
+It is named "AlzheimersModel2D_VGG16" and is located in "modeling" dir.
+
 <br>
 
 ## Setup
