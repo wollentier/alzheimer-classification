@@ -68,22 +68,18 @@ _____
 Use the requirements file in this repository to create a new environment. The `requirements` file contains all libraries needed for deployment and ensures compatibility of used API. Following command lines are used to set an virtual environment and install needed libraries within it: 
 
 ```
-pyenv local 3.9.8
+pyenv local 3.10.4
 python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 ```
+should also run with python 3.8.9
+Model was trained on a windows machine
 
 **Then if running on Windows machine,**
 
 ```
 pip install -r requirements.txt
-```
-
-**Or if running on macOS machine,**
-
-```
-pip install -r requirements_2.txt
 ```
 
 <br>
