@@ -73,7 +73,7 @@ python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 ```
-should also run with python 3.8.9
+should also run with python 3.8.9 <br>
 Model was trained on a windows machine
 
 **Then if running on Windows machine,**
