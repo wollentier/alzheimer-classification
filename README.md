@@ -42,6 +42,24 @@ The main notebook contains the final implementation of our selected model archit
 
 It is named "AlzheimersModel2D_VGG16" and is located in "modeling" dir.
 
+A proper data selection GUI has still to be developed. As is right now, the pathing is hard-coded.
+
+<br>
+
+## Deployment
+_____
+
+Within Deploy dir we have placed a python script that works as application for the classifies. It works indipendent of a specific model  as you have
+to select a model first (restricted to tenorflow model with softmax probability output).
+
+<br>
+
+## Docker
+_____
+
+In Docker dir is a simple dockerfile placed to create a container that ships a tensorflow model that can be used with simple FastAPI commands. 
+(Hosted locally)
+
 <br>
 
 ## Setup
